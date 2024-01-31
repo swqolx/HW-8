@@ -20,3 +20,76 @@
 
 div~h3{color: black;} 
 
+
+
+
+
+
+.monday{
+    background-color: pink;
+}
+
+.vivtorok{
+    background-color: hotpink;
+}
+
+.sereda{
+    background-color: antiquewhite;
+}
+
+.chetverch{
+    background-color: rgb(170, 170, 226);
+}
+
+.piatnica{
+    background-color: tomato;
+}
+
+/* Псевдокласи стану */
+
+.monday:hover{
+    color: yellow;
+    background-color: blue;
+}
+
+.vivtorok:hover{
+    color: indigo;
+    background-color: lightgreen;
+}
+
+.sereda:hover{
+    color: crimson;
+    background-color: aqua;
+}
+
+.chetverch:hover{
+    color: greenyellow;
+    background-color: firebrick;
+}
+
+.piatnica:hover{
+    color: indianred;
+    background-color: darkorchid;
+}
+
+/* Структурні псевдокласи */
+
+.monday-li:first-child:hover{
+    color: azure;
+}
+
+.vivtorok-list:last-child:hover{
+    color: honeydew;
+}
+
+.sereda-list:nth-child:hover{
+    color: lawngreen;
+}
+
+li:nth-child(odd):hover{
+    color: orangered;
+}
+
+li:nth-child(3n):hover{
+    color: olive;
+}

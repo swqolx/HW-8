@@ -1,28 +1,23 @@
-.text-box h3 {
+
+.text-box h3:first-of-type {
     color: pink;
 }
 
-.text-box #greycol {
+#greycol {
     color: grey;
 }
 
-.text-box div p {
+.text-box div>p {
     color: red;
 }
 
-.text-box p {
+div + h3 + p {
     color: green;
 }
 
-.text-box p.yellow {
+.yellow {
     color: yellow;
 }
-
-div~h3{color: black;} 
-
-
-
-
 
 
 .monday{
